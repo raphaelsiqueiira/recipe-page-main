@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
+    <meta name="description" content="Descubra uma receita fácil e rápida de omelete. Perfeita para qualquer refeição, esta omelete clássica pode ser personalizada com queijo, vegetais ou carnes."">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style-min.css" media="print" onload="this.media='all'" />
+    <noscript><link rel="stylesheet" href="css/style-min.css" /></noscript>
+    <title>Frontend Mentor | Recipe page</title>
+  </head>
+  <body>
+    <main class="container">
+      <div class="container-img">
+        <img src="assets/images/image-omelette.jpeg" alt="Omelete recheiado com salada de alface e cenoura em cima de um prato branco" class="recipe-img" />
+      </div>
+
+      <div class="recipe-information">
+        <h1 class="recipe-title">Simple Omelette Recipe</h1>
+        <p class="recipe-description">An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked to perfection, optionally filled with your choice of cheese, vegetables, or meats.</p>
+
+        <section id="recipe-prep-time">
+          <h2>Preparation time</h2>
+          <ul>
+            <li><span>Total</span>: <time datetime="PT10M">Approximately 10 minutes</time></li>
+            <li><span>Preparation</span>: <time datetime="PT5M">5 minutes</time></li>
+            <li><span>Cooking</span>: <time datetime="PT5M">5 minutes</time></li>
+          </ul>
+        </section>
+
+        <section id="ingredients" class="recipe-step">
+          <h2>Ingredients</h2>
+          <ul>
+            <li><span>2-3 large eggs</span></li>
+            <li><span>Salt, to taste</span></li>
+            <li><span>Pepper, to taste</span></li>
+            <li><span>1 tablespoon of butter or oil</span></li>
+            <li><span>Optional fillings: cheese, diced vegetables, cooked meats, herbs</span></li>
+          </ul>
+        </section>
+
+        <hr class="separador" />
+
+        <section id="instructions" class="recipe-step">
+          <h2>Instructions</h2>
+          <ol>
+            <li><span>Beat the eggs</span>: In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. You can add a tablespoon of water or milk for a fluffier texture.</li>
+            <li><span>Heat the pan</span>: Place a non-stick frying pan over medium heat and add butter or oil.</li>
+            <li><span>Cook the omelette</span>: Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure the eggs evenly coat the surface.</li>
+            <li><span>Add fillings (optional)</span>: When the eggs begin to set at the edges but are still slightly runny in the middle, sprinkle your chosen fillings over one half of the omelette.</li>
+            <li><span>Fold and serve</span>: As the omelette continues to cook, carefully lift one edge and fold it over the fillings. Let it cook for another minute, then slide it onto a plate.</li>
+            <li><span>Enjoy</span>: Serve hot, with additional salt and pepper if needed.</li>
+          </ol>
+        </section>
+
+        <hr class="separador" />
+
+        <section id="nutrition">
+          <h2>Nutrition</h2>
+          <p>The table below shows nutritional values per serving without the additional fillings.</p>
+
+          <div class="nutrition-table">
+            <div class="item">
+              <p>Calories</p>
+              <p class="ammount">277kcal</p>
+            </div>
+
+            <div class="item">
+              <p>Carbs</p>
+              <p class="ammount">0g</p>
+            </div>
+
+            <div class="item">
+              <p>Protein</p>
+              <p class="ammount">20g</p>
+            </div>
+
+            <div class="item">
+              <p>Fat</p>
+              <p class="ammount">22g</p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer class="attribution">
+      <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="#">Raphael Siqueira</a>.</p>
+    </footer>
+  </body>
+</html>
