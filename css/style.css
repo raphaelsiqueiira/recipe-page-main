@@ -137,7 +137,6 @@ ol li span {
 .nutrition-table .item {
   padding: 0.75rem 2rem;
   display: flex;
-  transition: all 200s ease;
   border-bottom: 1px solid var(--light-grey);
 }
 
